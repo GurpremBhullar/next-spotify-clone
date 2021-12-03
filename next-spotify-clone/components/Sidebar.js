@@ -8,7 +8,7 @@ import {
 
 function Sidebar() {
     return (
-        <div className="text-gray-500 p-5 text-sm">
+        <div className="text-gray-500 p-5 text-sm border-r border-gray-900">
             <div>
             <button className="flex items-center space-x-2">
                 <HomeIcon className="h-5 w-5"/>
@@ -29,6 +29,7 @@ function Sidebar() {
                 <PlusCircleIcon className="h-5 w-5"/>
                 <p>Add</p>
             </button>
+            <hr className="border-t-[0.1pxl]" />
 
             </div>
         </div>
