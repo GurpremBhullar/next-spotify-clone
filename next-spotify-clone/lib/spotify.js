@@ -21,7 +21,7 @@ const params = {
     scope: scopes,
 };
 
-const queryParamString = new URLSearchParams(params);
+const queryParamString = new URLSearchParams(params);  // creates an object for us
 
 const LOGIN_URL = 
     "https://accounts.spotify.com/authorize?" + queryParamString.toString();
