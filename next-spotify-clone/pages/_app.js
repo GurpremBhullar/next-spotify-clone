@@ -5,7 +5,7 @@ function MyApp({ Component, pageProps: { session, ...pageProps} })
 
 {
   return (
-    <SessionProvider session={session}>         {/* higher end component */} 
+  <SessionProvider session={session}>         {/* higher order component */} 
 
   <Component {...pageProps} />
 

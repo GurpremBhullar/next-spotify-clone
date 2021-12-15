@@ -10,13 +10,13 @@ import { signOut, useSession } from "next-auth/react";
 
 
 function Sidebar() {
-    const { data: session, status } = useSession();
+    const { data: session } = useSession();
 
     console.log(session);
 
     return (
         <div className="text-gray-500 p-5 text-sm border-r 
-        border-gray-900">
+        border-gray-900 overflow-y-scroll scrollbar-hide h-screen">
            
             <div className="space-y-4">
                 
