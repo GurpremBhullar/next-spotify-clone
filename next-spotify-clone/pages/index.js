@@ -1,5 +1,5 @@
+import Center from "../components/Center";
 import Sidebar from "../components/Sidebar";
-
 
 export default function Home() {
   
@@ -8,7 +8,7 @@ export default function Home() {
 
     <main>
         <Sidebar />
-        {/* Center */}
+        <Center />
     </main>
 
       <div>{/* Player */}</div>
