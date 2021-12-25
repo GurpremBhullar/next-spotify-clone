@@ -16,6 +16,7 @@ function Sidebar() {
     const spotifyApi = useSpotify();
     const { data: session, status } = useSession();
     const [playlists, setPlaylists] = useState([]);
+    const [playlistId, setPlayistId] = useState(null);
 
 
     useEffect(() => {
