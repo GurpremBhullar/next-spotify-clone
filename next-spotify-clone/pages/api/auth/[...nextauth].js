@@ -21,7 +21,7 @@ async function refreshAccessToken(token) {          // automatically refresh our
         };
 
     } catch (error) {
-        console.error(error);
+        console.error(error);    // if the refresh logic breaks catch the error
 
             return {
                 ...token,
